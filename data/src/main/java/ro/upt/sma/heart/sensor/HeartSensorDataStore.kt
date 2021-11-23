@@ -13,10 +13,10 @@ import java.util.*
 class HeartSensorDataStore(context: Context) : HeartSensorRepository {
 
     // TODO ("Get sensor manager service")
-    private val sensorManager: SensorManager = context.getSystemService(SENSOR_SERVICE) as SensorManager
+    private val sensorMng: SensorManager = context.getSystemService(SENSOR_SERVICE) as SensorManager
 
     // TODO ("Get a handle for the sensor")
-    private val heartRateSensor: Sensor = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE)
+    private val rateSensor: Sensor = sensorMng.getDefaultSensor(Sensor.TYPE_PRESSURE)
 
     private val listeners = HashMap<HeartSensorRepository.HeartRateListener, SensorEventListener>()
 
@@ -35,14 +35,15 @@ class HeartSensorDataStore(context: Context) : HeartSensorRepository {
 
         //TODO("Register sensor event listener with the sensor manager API")
 
-        sensorManager.registerListener(eventListener, heartRateSensor, SensorManager.SENSOR_DELAY_NORMAL)
+        sensorMng.registerListener(eventListener, rateSensor, SensorManager.SENSOR_DELAY_NORMAL)
+
         listeners[listener] = eventListener
     }
 
     override fun unregisterHeartRateListener(listener: HeartSensorRepository.HeartRateListener) {
         if (listeners.containsKey(listener)) {
             val eventListener = listeners[listener]
-            sensorManager?.unregisterListener(eventListener)
+            sensorMng?.unregisterListener(eventListener)
             listeners.remove(listener)
         }
     }

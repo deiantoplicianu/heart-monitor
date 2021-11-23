@@ -45,8 +45,8 @@ class FirebaseHeartMeasurementDataStore(userId: String) : HeartMeasurementReposi
 
         reference.addListenerForSingleValueEvent(object: ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
-                val children = snapshot.children
-                listener.onHeartListLoaded(toHeartMeasurements(children))
+                val child = snapshot.children
+                listener.onHeartListLoaded(toHeartMeasurements(child))
                 reference.removeEventListener(this)
             }
 
