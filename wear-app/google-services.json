@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373426363824",
+    "project_id": "smalab2-f828e",
+    "storage_bucket": "smalab2-f828e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373426363824:android:1afa091b5ab67b5c4a4a75",
+        "android_client_info": {
+          "package_name": "ro.upt.sma.heart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373426363824-shco7t4u508e15133ng22ijt9q1kctce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEMMaXVtbd6JTuPH_07daWUPlf1PtoB0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373426363824-shco7t4u508e15133ng22ijt9q1kctce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

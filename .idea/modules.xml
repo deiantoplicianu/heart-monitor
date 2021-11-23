@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/heart-monitor.iml" filepath="$PROJECT_DIR$/heart-monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/heart-monitor-data.iml" filepath="$PROJECT_DIR$/data/heart-monitor-data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/heart-monitor-domain.iml" filepath="$PROJECT_DIR$/domain/heart-monitor-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/injection/heart-monitor-injection.iml" filepath="$PROJECT_DIR$/injection/heart-monitor-injection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/phone-app/heart-monitor-phone-app.iml" filepath="$PROJECT_DIR$/phone-app/heart-monitor-phone-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/presenter/heart-monitor-presenter.iml" filepath="$PROJECT_DIR$/presenter/heart-monitor-presenter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wear-app/heart-monitor-wear-app.iml" filepath="$PROJECT_DIR$/wear-app/heart-monitor-wear-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/injection/injection.iml" filepath="$PROJECT_DIR$/injection/injection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/phone-app/phone-app.iml" filepath="$PROJECT_DIR$/phone-app/phone-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/presenter/presenter.iml" filepath="$PROJECT_DIR$/presenter/presenter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smaheart.iml" filepath="$PROJECT_DIR$/smaheart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wear-app/wear-app.iml" filepath="$PROJECT_DIR$/wear-app/wear-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heart-monitor.iml" filepath="$PROJECT_DIR$/.idea/modules/heart-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/heart-monitor.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/heart-monitor.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/heart-monitor.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/heart-monitor.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/injection/heart-monitor.injection.iml" filepath="$PROJECT_DIR$/.idea/modules/injection/heart-monitor.injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/phone-app/heart-monitor.phone-app.iml" filepath="$PROJECT_DIR$/.idea/modules/phone-app/heart-monitor.phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presenter/heart-monitor.presenter.iml" filepath="$PROJECT_DIR$/.idea/modules/presenter/heart-monitor.presenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wear-app/heart-monitor.wear-app.iml" filepath="$PROJECT_DIR$/.idea/modules/wear-app/heart-monitor.wear-app.iml" />
     </modules>
   </component>
 </project>
